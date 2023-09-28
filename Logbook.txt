@@ -1,0 +1,38 @@
+28 Sep 2023
+1. Technology Stack
+Frontend: HTML, CSS, JavaScript, React
+Backend: Sprintboot with Java
+Database: Mysql
+
+2. Database Schema 
+User Table 
+|   UserID  |   PhoneNumber   |   EmailAddress    |   Password   |   FirstName   |   LastName   |   Permission   ｜
+UserID: INT (Integer) - Unique identifier for the user.
+PhoneNumber: VARCHAR(15) - String for storing phone numbers.
+EmailAddress: VARCHAR(255) - String for storing email addresses.
+Password: VARCHAR(255) - String for storing hashed passwords.
+FirstName: VARCHAR(50) - String for storing the user's first name.
+LastName: VARCHAR(50) - String for storing the user's last name.
+Permission: ENUM('User', 'Admin') - Enumeration for user permissions (You can customize the values as needed).
+
+
+Room Table:
+|   RoomID   | RoomType   |   Price   |   Preview   |   Description   |
+RoomID: INT (Integer) - Unique identifier for the room.
+RoomType: VARCHAR(50) - String for storing room types.
+Price: DECIMAL(10, 2) - Decimal data type for storing room prices.
+Preview: VARCHAR(255) - String for storing a preview image URL or file path.
+Description: TEXT - Text data type for storing room descriptions.
+
+
+Reservation Table:
+|   ReservationID   |   UserID   |   RoomID   |   StartDate   |   EndDate   |   Status   ｜   PaymentInfo   |
+ReservationID: INT (Integer) - Unique identifier for the reservation.
+UserID: INT - Foreign key referencing the UserID in the User table.
+RoomID: INT - Foreign key referencing the RoomID in the Room table.
+StartDate: DATE - Date data type for storing the reservation start date.
+EndDate: DATE - Date data type for storing the reservation end date.
+Status: ENUM('Reserved', 'CheckedIn', 'CheckedOut', 'Cancelled') - Enumeration for reservation status.
+PaymentInfo: TEXT - Text data type for storing payment-related information (e.g., payment transaction details).
+
+3.
