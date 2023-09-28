@@ -1,0 +1,56 @@
+User Registration:
+As a guest user, I want to be able to register for an account with my email and password so that I can book rooms and manage my reservations.
+
+User Login:
+As a guest user, I want to be able to log in to my account using my registered email and password.
+
+Browse Room Listings:
+As a guest user, I want to view a list of available rooms with details like price, room type, and a brief description.
+
+Search for Rooms:
+As a guest user, I want to search for rooms based on criteria such as price range, date range, and room type.
+
+View Room Details:
+As a logged in user, I want to click on a room to view detailed information, including available dates and room features.
+
+Make a Reservation:
+As a logged in user, I want to be able to select dates and make a reservation for a room.
+
+Edit Profile:
+As a registered user, I want to edit my profile information, including contact details and password.
+
+View Booking History*:
+As a registered user, I want to view my booking history to keep track of past reservations.
+
+User Logout:
+As a registered user, I want the option to log out of my account securely.
+
+Admin Registration:
+As an administrator, I want to be able to register for an admin account with specific registration steps.
+
+Admin Login:
+As an administrator, I want to be able to log in to my admin account using unique credentials.
+
+Manage Rooms:
+As an administrator, I want to add, edit, or delete room listings, including details like room type, price, and availability.
+
+View Reservations:
+As an administrator, I want to view a list of all reservations, including user information, room details, and reservation status.
+
+Confirm Reservations:
+As an administrator, I want to confirm or cancel reservations made by users.
+
+User Management:
+As an administrator, I want the ability to view and manage user accounts, including blocking or unblocking users.
+
+Check Room Availability:
+As a user making a reservation, I want the system to check if the room is available on the selected dates before confirming the reservation.
+
+Receive Reservation Confirmation:
+As a user making a reservation, I want to receive a confirmation email or notification with details of my reservation.
+
+Payment Process:
+As a user making a reservation, I want a secure and straightforward payment process to complete my booking.
+
+View Booking Details:
+As a user making a reservation, I want to see the details of my reservation, including check-in and check-out dates.
